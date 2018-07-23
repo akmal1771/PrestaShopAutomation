@@ -1,5 +1,5 @@
 package com.prestashop.tests;
-//hi from Nargiza 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
