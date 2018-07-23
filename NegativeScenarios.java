@@ -64,7 +64,6 @@ public class NegativeScenarios {
 		String blankError=dr.findElement(By.xpath("//div[@class='alert alert-danger']/ol/li")).getText();
 		Assert.assertEquals(expectedMessage, blankError);
 	}
-
 	@Test 
 	public void blankPasswordTest() {
 		dr.get("http://automationpractice.com/index.php");	
