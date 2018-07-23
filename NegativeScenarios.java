@@ -1,5 +1,5 @@
 package com.prestashop.tests;
-
+//akmal has changed something
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -64,7 +64,6 @@ public class NegativeScenarios {
 		String blankError=dr.findElement(By.xpath("//div[@class='alert alert-danger']/ol/li")).getText();
 		Assert.assertEquals(expectedMessage, blankError);
 	}
-
 	@Test 
 	public void blankPasswordTest() {
 		dr.get("http://automationpractice.com/index.php");	
