@@ -20,7 +20,7 @@ public class NegativeScenarios {
 		dr=new ChromeDriver();
 	}
 	
-	
+	// ilike it
 	@Test
 	public void wrongCredentialsTest() {
 		dr.get("http://automationpractice.com/index.php");	
