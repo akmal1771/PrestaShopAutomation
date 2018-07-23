@@ -1,5 +1,5 @@
 package com.prestashop.tests;
-
+//comment from Nargiza
 import java.util.Random;
 
 import org.openqa.selenium.By;
